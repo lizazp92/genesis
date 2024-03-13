@@ -1,0 +1,76 @@
+/* IMPORTED FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+/* Mulish */
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 125px;
+  background-color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+}
+
+/* HELPER CLASSES */
+
+.fs-italic {
+  font-style: italic;
+}
+
+.f-s16 {
+  font-size: 16px;
+}
+
+.f-s18 {
+  font-size: 18px;
+}
+.f-s22 {
+  font-size: 22px;
+}
+
+.f-s28 {
+  font-size: 28px;
+}
+
+.f-s40 {
+  font-size: 40px;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+.fw700 {
+  font-weight: 700;
+}
+
+/* .lh-15 {
+  line-height: 1.5;
+} */
+
+/* NAVIGATION */
+
+.nav-bar .nav-bar__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0 0 0;
+}
+
+.nav-bar__list > li {
+  cursor: pointer;
+}
+
+.nav-bar__flex {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.nav-bar__flex > li > a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.3px;
+}
