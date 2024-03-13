@@ -113,7 +113,7 @@ header {
 }
 
 /* MAIN GRID */
-.grid-wrapper {
+.img-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 350px);
   grid-template-rows: 1;
@@ -121,7 +121,7 @@ header {
   justify-content: center;
   margin-bottom: 91px;
 }
-.grid-wrapper__col {
+.img-wrapper__col {
   display: grid;
   grid-template-rows: repeat(4, auto);
   grid-template-columns: repeat(1, 357px);
