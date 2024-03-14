@@ -45,12 +45,23 @@ body {
 .c-blue {
   color: #4a4ff2;
 }
+.opac-60 {
+  opacity: 60%;
+}
 .lh-13 {
   line-height: 1.3;
 }
 
 .lh-15 {
   line-height: 1.5;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pr-24 {
+  padding-right: 24px;
 }
 
 /* NAVIGATION */
@@ -165,6 +176,7 @@ header {
   margin-right: auto;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .service-wrapper h2 {
   margin: 0;
@@ -173,4 +185,121 @@ header {
   list-style: none;
   opacity: 60%;
   padding: 8px 0;
+}
+
+/* awards */
+
+.awards-wrapper {
+  display: grid;
+  grid-template-rows: 10px 90px span 1 10px 90px span 1;
+  grid-template-columns: 250px auto auto 1fr;
+  grid-row-gap: 40px;
+  grid-column-gap: 150px;
+
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 1110px;
+  margin-bottom: 116px;
+}
+h3,
+h4,
+h5 {
+  margin-top: 0;
+}
+.awards__item1 {
+  grid-area: 1 / 1 / 2 / 5;
+}
+
+.awards__item2 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.awards__item3 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.awards__item4 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.awards__item5 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.awards__item6 {
+  grid-area: 3 / 2 / 3 / 3;
+}
+
+.awards__item7 {
+  grid-area: 3 / 3 / 3 / 4;
+}
+.awards__item8 {
+  grid-area: 3 / 4 / 3 / 5;
+}
+
+.awards__item9 {
+  grid-area: 4 / 1 / 5 / 5;
+}
+
+.awards__item10 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.awards__item11 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.awards__item12 {
+  grid-area: 5 / 3 / 6 / 4;
+}
+.awards__item13 {
+  grid-area: 5 / 4 / 6 / 5;
+}
+
+.awards__item14 {
+  grid-area: 6 / 2 / 7 / 3;
+}
+
+.awards__item15 {
+  grid-area: 6 / 3 / 7 / 4;
+}
+
+.awards__item16 {
+  grid-area: 6 / 4 / 7 / 5;
+}
+.awards__item17 {
+  grid-area: 7 / 1 / 8 / 5;
+}
+
+/* footer */
+
+.footer__list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 30% auto 20% 20%;
+  grid-column-gap: 150px;
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  padding: 0;
+  margin-bottom: 46px;
+}
+
+.footer__list a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.footer__list li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer__list-item1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.footer__list-item2 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.footer__list-item3 {
+  grid-area: 1 / 4 / 2 / 5;
 }
